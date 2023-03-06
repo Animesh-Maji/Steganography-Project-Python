@@ -73,8 +73,8 @@ text1.configure(yscrollcommand=text_Scrollbar.set)
 frame3 = Frame(root, bd=3, bg="#65cfc4", width=340, height=100, relief=GROOVE)
 frame3.place(x=10, y=370)
 
-Button(frame3, text="Open Image", width=10, height=2, font="arial 14 bold", command=openImage).place(x=20, y=30)
-Button(frame3, text="Save Image", width=10, height=2, font="arial 14 bold", command=saveImage).place(x=180, y=30)
+Button(frame3, bg="blue", fg="#fff", text="Open Image", width=10, height=2, font="arial 14 bold", command=openImage).place(x=20, y=30)
+Button(frame3, bg="green", fg="#fff", text="Save Image", width=10, height=2, font="arial 14 bold", command=saveImage).place(x=180, y=30)
 Label(frame3, text="Process Image File...", bg="#65cfc4", fg="#000", font="arial 10 bold").place(x=20, y=5)
 
 # Fourth Frame 
@@ -82,8 +82,8 @@ Label(frame3, text="Process Image File...", bg="#65cfc4", fg="#000", font="arial
 frame4 = Frame(root, bd=3, bg="#65cfc4", width=340, height=100, relief=GROOVE)
 frame4.place(x=350, y=370)
 
-Button(frame4, text="Hide Text", width=10, height=2, font="arial 14 bold", command=hide).place(x=20, y=30)
-Button(frame4, text="Show Text", width=10, height=2, font="arial 14 bold", command=show).place(x=180, y=30)
+Button(frame4, bg="orange", fg="#fff", text="Hide Text", width=10, height=2, font="arial 14 bold", command=hide).place(x=20, y=30)
+Button(frame4, bg="green", fg="#fff", text="Show Text", width=10, height=2, font="arial 14 bold", command=show).place(x=180, y=30)
 Label(frame4, text="Encryption/Decryption...", bg="#65cfc4", fg="#000", font="arial 10 bold").place(x=20, y=5)
 
 
