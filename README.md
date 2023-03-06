@@ -19,7 +19,7 @@ This is a basic GUI based project written in python to demonstrate the concept o
 
 ## Usage
 
-`> python3 main.py
+`> python3 main.py`
 
 
 ## Snapshot
