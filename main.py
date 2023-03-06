@@ -45,7 +45,7 @@ resize_img = topImg.resize((80, 80))
 img = ImageTk.PhotoImage(resize_img)
 Label(image=img, bg="#65cfc4").place(x=-10, y=-10)
 
-Label(root, text="Hidden Text", bg="#65cfc4", fg="#fff", font="arial 25 bold").place(x=70, y=3)
+Label(root, text="Secret Message", bg="#65cfc4", fg="#fff", font="arial 25 bold").place(x=70, y=3)
 
 # First Frame
 
